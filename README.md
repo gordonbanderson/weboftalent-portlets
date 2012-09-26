@@ -1,9 +1,9 @@
 #Functionality
-* Adds a convenience method for templates that pre-splits a dataset into rows
+* Adds a convenience template call that allows one to search for N of a certain type of DataObject and then render them with a given template.
 
 # Installation
-    git clone git://github.com/gordonbanderson/weboftalent-gridrows.git
-    cd weboftalent-gridrows
+    git clone git://github.com/gordonbanderson/weboftalent-portlets.git
+    cd weboftalent-portlets
     git checkout stable24
 
 The name of the output directory does not matter
@@ -30,6 +30,8 @@ The parameters are as follows:
 * The sort field, in this case title.
 * The number of items to return, in this case 2
 * The name of the template used to render the portlets, here _SmallTitleAndImage_
+
+
 
 
 
