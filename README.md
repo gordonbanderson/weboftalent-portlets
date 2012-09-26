@@ -31,8 +31,17 @@ The parameters are as follows:
 * The number of items to return, in this case 2
 * The name of the template used to render the portlets, here _SmallTitleAndImage_
 
+In the template used to render the portlet, the records can be accessed using &lt;control Records&gt; - an example is below.
 
-
+	<ul class="slides">
+	<% control Records %>
+	<li>
+	<a href="$Link"><h5>$PortletTitle</h5>
+	<% control PortletImage %><% control SetWidth(170) %><img src="$URL"/><% end_control %><% end_control %>
+	</a>
+	<% end_control %>
+	</li>
+	</ul>
 
 
 
