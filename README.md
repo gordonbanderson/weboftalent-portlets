@@ -4,7 +4,7 @@
 # Installation
     git clone git://github.com/gordonbanderson/weboftalent-portlets.git
     cd weboftalent-portlets
-    git checkout stable24
+    git checkout stable30
 
 The name of the output directory does not matter
 
@@ -21,7 +21,7 @@ For a model to be rendered as a portlet, it must provide the 3 following methods
 ## Templates
 The model being rendered must implement the RenderableAsPortlet interface mentioned previously.  An example call to render portlets is as follows:
 
-	$RenderPortlet(Activity||Title|2|SmallTitleAndImage)
+	$RenderPortlet('Activity','','Title',2,'SmallTitleAndImage')
 
 The parameters are as follows:
 
@@ -46,4 +46,5 @@ In the template used to render the portlet, the records can be accessed using &l
 
 
 ## Silverstripe Version Compatibility
-2.4 only (tested with 2.4.5+) - stable24 branch
+2.4 (tested with 2.4.5+) - stable24 branch
+3.0 - stable30 branch
