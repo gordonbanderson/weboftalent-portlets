@@ -19,11 +19,15 @@ class RenderablePortlets_Controller extends Extension {
 
   FIXME: Use a join to make image extraction more efficient
   */
-  public function RenderPortlet( $model, $where, $ordering, $amount, $template ) {
+  public function RenderPortlet( $model, $where, $ordering, $amount, $template, $joinTable = '', $joinOn = '' ) {
     error_log( "RENDER PORTLET" );
     error_log( 'ARGUMENTS:'.print_r( $where, 1 ) );
     $result = null;
-    $records = DataObject::get( $model, $where, $ordering, '', $amount );
+    //$records = DataList::DataObject::get( $model, $where, $ordering, '', $amount );
+    $records = DataList::create($model)->where($where)->sort($ordering)->limit($amount);
+    if ($joinTable) {
+      $records->leftJoin($joinTable, $joinOn);
+    }
     return $this->owner->customise(
       new ArrayData(
         array(
