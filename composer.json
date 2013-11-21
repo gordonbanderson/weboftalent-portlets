@@ -1,0 +1,21 @@
+{
+	"name": "weboftalent/portlets",
+	"description": "Template enhancments for showing portlets on a page",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "portlets", "templates"],
+	"authors": [
+		{
+			"name": "Gordon Anderson",
+			"email": "gordon.b.anderson@gmail.com",
+			"homepage": "https://github.com/gordonbanderson/weboftalent-portlets",
+			"role": "Developer"
+		}
+	],
+    "support": {
+        "issues": "https://github.com/gordonbanderson/weboftalent-portlets/issues"
+    },
+	"require":
+	{
+		"silverstripe/framework": "~3.1"
+	}
+}
