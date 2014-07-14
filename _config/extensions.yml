@@ -1,0 +1,6 @@
+---
+name: weboftalent-portlets-extensions
+---
+ContentController:
+  extensions:
+    ['RenderablePortlets_Controller']
