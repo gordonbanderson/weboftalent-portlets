@@ -1,8 +1,9 @@
 <?php
 
-class RenderablePortlets_Controller extends Extension {
+class RenderablePortlets_Controller extends Extension
+{
 
-  /*
+    /*
   Render a portlet from a template call of the form
 
   <code>
@@ -19,19 +20,20 @@ class RenderablePortlets_Controller extends Extension {
 
   FIXME: Use a join to make image extraction more efficient
   */
-  public function RenderPortlet( $model, $where, $ordering, $amount, $template, $joinTable = '', $joinOn = '' ) {
-    $result = null;
+  public function RenderPortlet($model, $where, $ordering, $amount, $template, $joinTable = '', $joinOn = '')
+  {
+      $result = null;
     //$records = DataList::DataObject::get( $model, $where, $ordering, '', $amount );
     $records = DataList::create($model)->where($where)->sort($ordering)->limit($amount);
-    if ($joinTable) {
-      $records->leftJoin($joinTable, $joinOn);
-    }
-    return $this->owner->customise(
+      if ($joinTable) {
+          $records->leftJoin($joinTable, $joinOn);
+      }
+      return $this->owner->customise(
       new ArrayData(
         array(
           'Records' => $records
         )
       )
-    )->renderWith( $template );
+    )->renderWith($template);
   }
 }
