@@ -1,4 +1,21 @@
 #Functionality
+[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-portlets.svg?branch=continuous_integration)](https://travis-ci.org/gordonbanderson/weboftalent-portlets)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/quality-score.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=continuous_integration)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/coverage.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=continuous_integration)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/build.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/build-status/continuous_integration)
+[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-portlets/coverage.svg?branch=continuous_integration)](https://codecov.io/github/gordonbanderson/weboftalent-portlets?branch=continuous_integration)
+
+[![Latest Stable Version](https://poser.pugx.org/weboftalent/portlets/version)](https://packagist.org/packages/weboftalent/portlets)
+[![Latest Unstable Version](https://poser.pugx.org/weboftalent/portlets/v/unstable)](//packagist.org/packages/weboftalent/portlets)
+[![Total Downloads](https://poser.pugx.org/weboftalent/portlets/downloads)](https://packagist.org/packages/weboftalent/portlets)
+[![License](https://poser.pugx.org/weboftalent/portlets/license)](https://packagist.org/packages/weboftalent/portlets)
+[![Monthly Downloads](https://poser.pugx.org/weboftalent/portlets/d/monthly)](https://packagist.org/packages/weboftalent/portlets)
+[![Daily Downloads](https://poser.pugx.org/weboftalent/portlets/d/daily)](https://packagist.org/packages/weboftalent/portlets)
+
+[![Dependency Status](https://www.versioneye.com/php/weboftalent:portlets/badge.svg)](https://www.versioneye.com/php/weboftalent:portlets)
+[![Reference Status](https://www.versioneye.com/php/weboftalent:portlets/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:portlets/references)
+
+![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-portlets/branch.svg?branch=continuous_integration)
 * Adds a convenience template call that allows one to search for N of a certain type of DataObject and then render them with a given template.
 
 # Installation
