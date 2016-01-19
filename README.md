@@ -19,9 +19,8 @@
 * Adds a convenience template call that allows one to search for N of a certain type of DataObject and then render them with a given template.
 
 # Installation
-    git clone git://github.com/gordonbanderson/weboftalent-portlets.git
-    cd weboftalent-portlets
-    git checkout stable30
+```
+composer require "weboftalent/portlets:~3.1"
 
 The name of the output directory does not matter
 
