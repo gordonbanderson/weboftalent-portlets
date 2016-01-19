@@ -1,9 +1,9 @@
 #Functionality
-[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-portlets.svg?branch=continuous_integration)](https://travis-ci.org/gordonbanderson/weboftalent-portlets)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/quality-score.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=continuous_integration)
-[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/coverage.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=continuous_integration)
-[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/build.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/build-status/continuous_integration)
-[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-portlets/coverage.svg?branch=continuous_integration)](https://codecov.io/github/gordonbanderson/weboftalent-portlets?branch=continuous_integration)
+[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-portlets.svg?branch=master)](https://travis-ci.org/gordonbanderson/weboftalent-portlets)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/build-status/master)
+[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-portlets/coverage.svg?branch=master)](https://codecov.io/github/gordonbanderson/weboftalent-portlets?branch=master)
 
 [![Latest Stable Version](https://poser.pugx.org/weboftalent/portlets/version)](https://packagist.org/packages/weboftalent/portlets)
 [![Latest Unstable Version](https://poser.pugx.org/weboftalent/portlets/v/unstable)](//packagist.org/packages/weboftalent/portlets)
@@ -15,7 +15,7 @@
 [![Dependency Status](https://www.versioneye.com/php/weboftalent:portlets/badge.svg)](https://www.versioneye.com/php/weboftalent:portlets)
 [![Reference Status](https://www.versioneye.com/php/weboftalent:portlets/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:portlets/references)
 
-![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-portlets/branch.svg?branch=continuous_integration)
+![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-portlets/branch.svg?branch=master)
 * Adds a convenience template call that allows one to search for N of a certain type of DataObject and then render them with a given template.
 
 # Installation
