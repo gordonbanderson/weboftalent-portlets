@@ -1,16 +1,21 @@
 {
-	"name": "weboftalent/portlets",
-	"description": "Module to quickly render portlets of data from a simple template call",
-	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "portlets","templates","weboftalent"],
-	"authors": [
-	{
-		"name": "Gordon Anderson",
-		"email": "gordon@weboftalent.asia"
-	}
-	],
-	"require":
-	{
-		"silverstripe/framework": "3.1"
-	}
+  "name": "weboftalent/portlets",
+  "description": "Module to quickly render portlets of data from a simple template call",
+  "type": "silverstripe-module",
+  "keywords": [
+    "silverstripe",
+    "portlets",
+    "templates",
+    "weboftalent"
+  ],
+  "authors": [
+    {
+      "name": "Gordon Anderson",
+      "email": "gordon@weboftalent.asia"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "3.1"
+  },
+  "license": "BSD-3-Clause"
 }
