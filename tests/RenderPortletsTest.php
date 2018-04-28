@@ -1,6 +1,6 @@
 <?php
 
-use SilverStripe\Dev\SapphireTest;
+namespace WebOfTalent\Portlets\Tests;
 
 class RenderPortletsTest extends SapphireTest
 {

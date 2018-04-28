@@ -1,4 +1,5 @@
 <?php
+namespace WebOfTalent\Portlets\Tests;
 
 use SilverStripe\Dev\SapphireTest;
 

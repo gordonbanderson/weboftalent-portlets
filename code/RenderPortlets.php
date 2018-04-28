@@ -1,4 +1,5 @@
 <?php
+namespace WebOfTalent\Portlets;
 
 use SilverStripe\ORM\DataList;
 use SilverStripe\View\ArrayData;

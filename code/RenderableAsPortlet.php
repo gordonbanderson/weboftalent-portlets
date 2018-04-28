@@ -1,4 +1,6 @@
 <?php
+namespace WebOfTalent\Portlets;
+
 /**
  * Defines the interface for a DataObject renderable as a portlet. Implementors
  * of this interface must define the following functions in order to work with
