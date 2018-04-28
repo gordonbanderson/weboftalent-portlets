@@ -14,7 +14,7 @@ interface RenderableAsPortlet
      *
      * @example
      * <code>
-     * 	return $this->Title;
+     *  return $this->Title;
      * </code>
      *
      * @return string
@@ -26,7 +26,7 @@ interface RenderableAsPortlet
      *
      * @example
      * <code>
-     * 	return $this->NewsItemImage;
+     *  return $this->NewsItemImage;
      * </code>
      *
      * @return string
