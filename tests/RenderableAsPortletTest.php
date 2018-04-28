@@ -1,5 +1,7 @@
 <?php
 
+use SilverStripe\Dev\SapphireTest;
+
 class RenderableAsPortletTest extends SapphireTest
 {
     public function testGetPortletTitle()

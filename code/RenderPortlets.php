@@ -1,5 +1,9 @@
 <?php
 
+use SilverStripe\ORM\DataList;
+use SilverStripe\View\ArrayData;
+use SilverStripe\Core\Extension;
+
 class RenderablePortlets_Controller extends Extension
 {
     /*

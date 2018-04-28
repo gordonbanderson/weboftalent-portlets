@@ -1,6 +1,6 @@
 ---
 name: weboftalent-portlets-extensions
 ---
-ContentController:
+SilverStripe\CMS\Controllers\ContentController:
   extensions:
-    ['RenderablePortlets_Controller']
+    - RenderablePortlets_Controller
