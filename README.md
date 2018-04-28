@@ -1,4 +1,4 @@
-#Functionality
+# Functionality
 [![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-portlets.svg?branch=master)](https://travis-ci.org/gordonbanderson/weboftalent-portlets)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-portlets/?branch=master)
@@ -16,13 +16,14 @@
 [![Reference Status](https://www.versioneye.com/php/weboftalent:portlets/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:portlets/references)
 
 ![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-portlets/branch.svg?branch=master)
+
 * Adds a convenience template call that allows one to search for N of a certain type of DataObject and then render them with a given template.
+* Forces interfaced access to information about the data object such as title and image.
 
 # Installation
 ```
-composer require "weboftalent/portlets:~3.1"
+composer require "weboftalent/portlets:^4"
 
-The name of the output directory does not matter
 
 # Usage
 
