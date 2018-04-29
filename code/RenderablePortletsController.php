@@ -5,7 +5,7 @@ use SilverStripe\ORM\DataList;
 use SilverStripe\View\ArrayData;
 use SilverStripe\Core\Extension;
 
-class RenderablePortlets_Controller extends Extension
+class RenderablePortletsController extends Extension
 {
     /*
     Render a portlet from a template call of the form
