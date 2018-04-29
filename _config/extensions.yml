@@ -3,4 +3,4 @@ name: weboftalent-portlets-extensions
 ---
 SilverStripe\CMS\Controllers\ContentController:
   extensions:
-    - RenderablePortlets_Controller
+    - WebOfTalent\Portlets\RenderablePortletsController
