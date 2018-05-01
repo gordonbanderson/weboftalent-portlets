@@ -23,7 +23,7 @@
 # Installation
 ```
 composer require "weboftalent/portlets:^4"
-
+```
 
 # Usage
 
