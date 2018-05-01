@@ -1,5 +1,8 @@
 # Change Log
 
+## [4.0.3](https://github.com/gordonbanderson/weboftalent-portlets/tree/4.0.3) (2018-05-01)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-portlets/compare/4.0.2...4.0.3)
+
 ## [4.0.2](https://github.com/gordonbanderson/weboftalent-portlets/tree/4.0.2) (2018-04-29)
 [Full Changelog](https://github.com/gordonbanderson/weboftalent-portlets/compare/4.0.1...4.0.2)
 
